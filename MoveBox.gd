@@ -15,8 +15,5 @@ func _process(delta):
 		direction = point - transform.origin
 
 	move_and_slide(direction) 
-		
-		
-#	transform.origin = lerp(transform.origin, point, speed * delta)
 
 	
